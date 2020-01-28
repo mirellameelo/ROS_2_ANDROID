@@ -1,15 +1,13 @@
 # ROS_2_ANDROID
 Publishing data from Android via ROS 2
 
-- ROS 2: dashing
-
-
-Once you have you Android aplication sending a data via socket, you are able to publish (talker) and subscriber (listener) via ROS 2.
+Once you have your Android application sending a data via socket, you are able to publish (talker) and subscriber (listener) via ROS 2.
 
 
 ## Dependencies: 
 
-- ROS 2 (dashing) 
+- ROS 2 (dashing) Ubuntu 18.04 (https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Development-Setup/)
+- Colcon build (https://colcon.readthedocs.io/en/released/user/installation.html) 
 
 ## Building packages
 
