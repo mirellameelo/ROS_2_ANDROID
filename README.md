@@ -24,6 +24,7 @@ cd $HOME/ROS_2_ANDROID
 
 # Build the packages
 colcon build --packages-select cpp_pubsub
+cd $HOME/ROS_2_ANDROID/src 
 . install/setup.bash
 
 # run the talker
@@ -37,7 +38,7 @@ Open a new terminal to run the listener
 
 ```bash
 source /opt/ros/dashing/setup.bash
-cd $HOME/ROS_2_ANDROID 
+cd $HOME/ROS_2_ANDROID/src 
 . install/setup.bash
 
 # run the listener
