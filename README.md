@@ -7,7 +7,7 @@ Publishing data from Android via ROS 2
 Once you have you Android aplication sending a data via socket, you are able to publish (talker) and subscriber (listener) via ROS 2.
 
 
-##Dependencies: 
+## Dependencies: 
 
 - ROS 2 (dashing) 
 
