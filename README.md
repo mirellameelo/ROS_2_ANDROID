@@ -6,7 +6,7 @@ Once you have your Android application sending a data via socket, you are able t
 
 ## Dependencies: 
 
-- [ROS 2 (dashing)](https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Development-Setup/)
+- [ROS 2 (dashing)](https://index.ros.org/doc/ros2/Installation/Dashing/)
 
 ## Building packages
 
