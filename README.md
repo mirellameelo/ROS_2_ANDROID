@@ -6,8 +6,7 @@ Once you have your Android application sending a data via socket, you are able t
 
 ## Dependencies: 
 
-- ROS 2 (dashing) Ubuntu 18.04 (https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Development-Setup/)
-- Colcon build (https://colcon.readthedocs.io/en/released/user/installation.html) 
+- ROS 2 (dashing) [Ubuntu 18.04](https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Development-Setup/)
 
 ## Building packages
 
