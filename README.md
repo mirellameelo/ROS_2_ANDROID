@@ -33,7 +33,7 @@ ros2 run cpp_pubsub talker
 
 The publisher now is waiting for data comming via Socket
 
-Open a new terminal to verify to run the listener
+Open a new terminal to run the listener
 
 ```bash
 source /opt/ros/dashing/setup.bash
