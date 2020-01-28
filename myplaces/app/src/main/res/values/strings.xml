@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">myplaces</string>
+    <string name="place_ID">Request place_ID</string>
+    <string name="goToList">Show list/location</string>
+    <string name="status">Place_ID exists</string>
+    <string name="x_value">Place name</string>
+    <string name="y_value">y</string>
+    <string name="save_place">Save</string>
+    <string name="textXYpage">Enter place name:</string>
+    <string name="id_list">list</string>
+    <string name="goBack">Return</string>
+    <string name="Conect">Conection test</string>
+    <string name="send">send msg</string>
+    <string name="number">-</string>
+</resources>
