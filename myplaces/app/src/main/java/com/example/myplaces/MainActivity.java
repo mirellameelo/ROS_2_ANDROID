@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         onBtnClick();
     }
 
-
     public void onBtnClick() {
 
         conection.setOnClickListener(new View.OnClickListener(){
@@ -45,9 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 BackGroundTask b1 = new BackGroundTask();
                 b1.execute();
             }
-
         });
-
     }
 
     class BackGroundTask extends AsyncTask<String, Void, Void> {
@@ -56,23 +53,21 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(String... voids) {
             try {
-                //String msg = voids[0];
                 mens = String.valueOf(i);
 
                 if(s == null){
-                    s = new Socket("172.22.41.37",6000);
+                    //change it to your IP
+                    s = new Socket("172.16.42.25",6000);
                     writer = new PrintWriter(s.getOutputStream());
+                    Log.i("i", "CONNECTED");
                 }
                 writer.write(mens);
                 writer.flush();
                 //writer.close();
                 i = i+1;
-                Log.i("i", "CONNECTED");
                 h.post(new Runnable() {
                     @Override
                     public void run() {
-                        //Toast toast = Toast.makeText(getApplicationContext(), mens, Toast.LENGTH_SHORT);
-                        //toast.show();
                         number.setText(mens);
                     }
                 });
