@@ -55,7 +55,7 @@ colcon build --packages-select cpp_pubsub
 Open two terminals and source the cpp_pubsub setup file in both.
 
 ```bash
-source $HOME/ROS_2_ANDROID/install
+source $HOME/ROS_2_ANDROID/install/setup.bash
 ```
 
 **Terminal_1**: Run the talker
