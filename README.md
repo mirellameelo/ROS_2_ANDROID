@@ -4,6 +4,8 @@ Receiving and publishing data from Android via ROS 2
 
 Once you have one Android application sending data via socket, you will be able to publish (talker) and subscriber (listener) via ROS 2. In this repository, you can find a simple Android application to use as example. 
 
+The video tutorial is available [here](https://www.youtube.com/watch?v=Z-lVEcqZvuM).
+
 ## Dependencies: 
 
 - [ROS 2 (dashing)](https://index.ros.org/doc/ros2/Installation/Dashing/)
